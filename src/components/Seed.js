@@ -8,13 +8,14 @@ class Seed extends Component {
       return (
         <div className="Seed">
           <Segment
-            style={{ marginLeft: '10%', width:'75%' }}
+            style={{ marginLeft: '10%', width:'80%' }}
           >
             <p> This is your new seed:</p>
             <Grid centered='true'>
               <Grid.Column width={14}>
                 <Grid.Row>
                   <Input
+                    focus
                     fluid
                     centered
                     defaultValue='IM9A9SCAM9AND9IM9GONNA9STEAL9ALL9YOUR9IOTAS9IF9YOU9USE9THIS9ONLINE9SEED9GENERATOR'

@@ -38,13 +38,23 @@
 
 .icon:hover {
   cursor: pointer;
-  color: teal;
+  color:#0E6EB8;
 }
 
 .Stats {
   margin-top: 2rem;
   margin-left: 30%;
   width: 40%;
+}
+
+.Features {
+  margin-top: 2rem;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.FeatureDesc {
+  margin-top:1rem;
 }
 
 @keyframes App-logo-spin {

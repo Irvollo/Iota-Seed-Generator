@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
-import { Button, Message} from 'semantic-ui-react';
+import { Button, Message, Dimmer, Loader} from 'semantic-ui-react';
 import  Seed   from './components/Seed' 
+//import  Warning   from './components/Warning' 
 import './App.css';
 import 'semantic-ui-css/semantic.min.css';
 
@@ -28,25 +29,29 @@ class App extends Component {
       showSeedMenu: false,
       loader: true
     });
-    setTimeout(this.showSeedMenu, 5000)
+    setTimeout(this.showSeedMenu, 1000)
   }
 
   render() {
     return (
       <div className="App">
         <div className="Welcome">
-          <Message>
+          <Message centered>
             <Message.Header>
-              Online Seed Generator
+              IOTA Online Seed Generator
             </Message.Header>
             <p>
-              Welcome to the Free IOTA Online Seed Generator, to generate your new seed please press the button.
+              Created with 💖 &amp; ☕ .
             </p>
           </Message>
         </div>
         <div className="SeedMenu">
-        {this.state.showSeedMenu ? <Seed /> : <Button onClick={this.showLoader} >Click Here</Button>}
-        {this.state.loader ? <p>Generating your new seed</p> : null }
+          {this.state.showSeedMenu ? <Seed /> : <Button onClick={this.showLoader} >Generate Seed</Button>}
+          {this.state.loader ? 
+            <Dimmer active>
+              <Loader inverted>Generating your new seed</Loader>
+            </Dimmer>
+          : null }
         </div>
       </div>
     );

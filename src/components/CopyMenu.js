@@ -7,7 +7,8 @@ class CopyMenu extends Component {
       return (
         <div className="CopyMenu">
             <Modal
-                style={{ marginTop: '4rem', marginRight:'1rem', marginRight:'1rem' }}
+                fluid
+                style={{ marginTop: '4rem', marginLeft: '10%', width:'75%' }}
                 trigger={<i className="print icon large"></i>}
                 header='Reminder!'
                 content='Call Benjamin regarding the reports.'

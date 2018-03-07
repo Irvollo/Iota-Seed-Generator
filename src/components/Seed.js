@@ -9,7 +9,7 @@ class Seed extends Component {
         <div className="Seed">
           <p> This is your new seed:</p>
           <Grid centered='true'>
-            <Grid.Column width={10}>
+            <Grid.Column width={9}>
               <Grid.Row>
                 <Input
                   fluid

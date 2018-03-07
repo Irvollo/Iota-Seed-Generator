@@ -33,10 +33,7 @@
 
 .Welcome {
   text-align: center;
-}
-
-.Warning {
-  margin-top: 80px;
+  width: 100%;
 }
 
 @keyframes App-logo-spin {

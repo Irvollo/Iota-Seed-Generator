@@ -22,6 +22,11 @@
   font-size: large;
 }
 
+.CopyMenu {
+  text-align: center;
+  margin-top: 1em;
+}
+
 .SeedMenu {
   margin-top: 2em
 }
@@ -30,9 +35,8 @@
   text-align: center;
 }
 
-.CopyMenu {
-  text-align: center;
-  margin-top: 1em;
+.Warning {
+  margin-top: 80px;
 }
 
 @keyframes App-logo-spin {

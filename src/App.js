@@ -36,12 +36,12 @@ class App extends Component {
     return (
       <div className="App">
         <div className="Welcome">
-          <Message centered>
+          <Message centered="true">
             <Message.Header>
               IOTA Online Seed Generator
             </Message.Header>
             <p>
-              Created with 💖 &amp; ☕ .
+              Created with 💖 &amp; ☕ 
             </p>
           </Message>
         </div>

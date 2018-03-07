@@ -48,8 +48,8 @@ class App extends Component {
         { this.state.showSeedMenu ? null : 
         <div className="Stats">
           <Segment>
-            <Statistic>
-              <Statistic.Value>+100,000</Statistic.Value>
+            <Statistic size="small">
+              <Statistic.Value>+100k</Statistic.Value>
               <Statistic.Label>Seeds Generated</Statistic.Label>
             </Statistic>
           </ Segment >

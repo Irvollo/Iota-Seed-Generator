@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
-import { Button, Message, Dimmer, Loader} from 'semantic-ui-react';
+import { Button, Message, Dimmer, Loader, Statistic, Segment} from 'semantic-ui-react';
 import  Seed   from './components/Seed' 
 //import  Warning   from './components/Warning' 
 import './App.css';
@@ -45,8 +45,18 @@ class App extends Component {
             </p>
           </Message>
         </div>
+        { this.state.showSeedMenu ? null : 
+        <div className="Stats">
+          <Segment>
+            <Statistic>
+              <Statistic.Value>+100,000</Statistic.Value>
+              <Statistic.Label>Seeds Generated</Statistic.Label>
+            </Statistic>
+          </ Segment >
+        </div>
+        }
         <div className="SeedMenu">
-          {this.state.showSeedMenu ? <Seed /> : <Button onClick={this.showLoader} >Generate Seed</Button>}
+          {this.state.showSeedMenu ? <Seed /> : <Button positive onClick={this.showLoader} >Generate Seed</Button>}
           {this.state.loader ? 
             <Dimmer active>
               <Loader inverted>Generating your new seed</Loader>

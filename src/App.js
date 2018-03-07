@@ -40,7 +40,7 @@ class App extends Component {
         < Welcome />
         { this.state.showSeedMenu ? null : <FakeStats />}
         <div className="SeedMenu">
-          {this.state.showSeedMenu ? <Seed /> : <Button primary onClick={this.showLoader} >Generate Seed</Button>}
+          {this.state.showSeedMenu ? <Seed /> : <Button color='teal' size="large" onClick={this.showLoader} >Generate Seed</Button>}
           <FeatureMenu />
           {this.state.loader ? 
             <Dimmer active>

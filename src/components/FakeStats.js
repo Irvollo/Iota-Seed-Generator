@@ -6,7 +6,7 @@ class FakeStats extends Component {
     render() {
       return (
         <div className="Stats">
-            <Segment>
+            <Segment color='teal'>
                 <Statistic size="small">
                 <Statistic.Value>+100k</Statistic.Value>
                 <Statistic.Label>Seeds Generated</Statistic.Label>

@@ -9,6 +9,7 @@ class Seed extends Component {
         <div className="Seed">
           <Segment
             style={{ marginLeft: '10%', width:'80%' }}
+            color='teal'
           >
             <p> This is your new seed:</p>
             <Grid centered='true'>

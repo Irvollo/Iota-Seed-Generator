@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { Grid, Segment, Header } from 'semantic-ui-react'
+import { Grid, Segment, Header, Divider } from 'semantic-ui-react'
 
 class FeatureMenu extends Component {
 
     render() {
       return (
         <div className="Features">
+            <Divider />
             <Grid columns={3}>
                 <Grid.Column>
                 <Segment basic>
@@ -32,6 +33,7 @@ class FeatureMenu extends Component {
                 </Segment>
                 </Grid.Column>
             </Grid>
+            <Divider />
         </div>
       );
     }

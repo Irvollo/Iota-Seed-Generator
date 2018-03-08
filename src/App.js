@@ -5,6 +5,7 @@ import  Seed   from './components/Seed'
 import  FakeStats   from './components/FakeStats' 
 import  Welcome   from './components/Welcome' 
 import  FeatureMenu   from './components/FeatureMenu' 
+import  Donations   from './components/Donations' 
 import './App.css';
 import 'semantic-ui-css/semantic.min.css';
 
@@ -48,6 +49,7 @@ class App extends Component {
             </Dimmer>
           : null }
         </div>
+        <Donations />
       </div>
     );
   }

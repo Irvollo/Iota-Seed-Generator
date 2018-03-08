@@ -62,6 +62,14 @@
   text-align: center;
 }
 
+.Footer {
+  word-wrap: break-word;
+  margin-top: 1erm;
+  margin-bottom: 1erm;
+  margin-left: 10%;
+  width: 80%;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

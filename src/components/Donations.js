@@ -6,7 +6,7 @@ class Donations extends Component {
     render() {
       return (
         <div className="Footer">
-            <p><b>IOTA Address Donations</b>: GXNMVRWJSFMGKOVCMOGICITNYUDKOJMSZTMTQOCVAKSPBHSDP9PIGCGFSMSFNPBNMKREUOOFQR9FUZUL9QGSVQKDUX</p>
+            <p><b>IOTA Address Donations</b>: TSABRWZQKMTVDBFBFVQUYQLEOBEONIPLCEVRZEPUWR9HVZYTEZBPLEBFZFVILCYVNWZCPLFBEDGEMEYVBDOQWAINYW</p>
             <Divider />
         </div>
       );

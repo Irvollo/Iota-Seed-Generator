@@ -45,7 +45,8 @@ export default class Generators extends Component {
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 2}>
           <p>
-            At this moment, Windows doesn't have a reliable command line method. But you can download <a href="https://keepass.info/">KeePass</a> and
+            At this moment, Windows doesn't have a reliable command line method. But you can download <a href="https://keepass.info/">KeePass </a> 
+            go to Tools > Generate Password and
             generate your seed with the following options:
           </p>
           <Segment>

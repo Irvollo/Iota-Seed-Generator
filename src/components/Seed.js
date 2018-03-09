@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import  { Input, Grid, Segment, Button } from 'semantic-ui-react';
+import  {  Grid, Segment, Button } from 'semantic-ui-react';
 import CopyMenu from './CopyMenu'
+import StopModalInput from './StopModalInput'
 
 class Seed extends Component {
     
@@ -41,12 +42,7 @@ class Seed extends Component {
             <Grid centered='true'>
               <Grid.Column width={14}>
                 <Grid.Row>
-                  <Input
-                    focus
-                    fluid
-                    centered
-                    value={this.state.actualSeed}
-                  />
+                  <StopModalInput seed={this.state.actualSeed} />
                 </Grid.Row>
                 <Grid.Row >
                   <div className="Refresh">

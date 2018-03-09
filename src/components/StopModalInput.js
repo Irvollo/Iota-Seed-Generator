@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import  {  Modal, Header }  from 'semantic-ui-react';
+import  {  Modal, Header, Input }  from 'semantic-ui-react';
 import Generators from './Generators';
 import DonateMessage from './DonateMessage';
 
@@ -7,13 +7,24 @@ class StopModal extends Component {
 
     constructor(props) {
         super(props);
-        this.icon = props.icon;
+        this.state = {
+          seed: props.seed
+        }
       }
+    
+    componentWillReceiveProps(newProps) {
+        this.setState({seed: newProps.seed});
+    }
 
     render() {
       return (
         <Modal 
-              trigger={<i className={`${this.icon} icon large`}></i>} 
+              trigger={<Input
+                    focus
+                    fluid
+                    centered
+                    value={`${this.state.seed}`}
+                  />} 
               style={{ marginTop: '4rem', marginLeft: '10%', width:'75%' }}
               closeIcon
               >    

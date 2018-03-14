@@ -9,7 +9,7 @@ class DonationMessage extends Component {
             <Message>
                 <p> Hey! If this helped you, how about sending a  
                 <span role="img" aria-label="Coffe"> ☕ </span>  (1 MIOTA) to this Address and support the dev:
-                <b> GXNMVRWJSFMGKOVCMOGICITNYUDKOJMSZTMTQOCVAKSPBHSDP9PIGCGFSMSFNPBNMKREUOOFQR9FUZUL9QGSVQKDUX</b>
+                <b> TSABRWZQKMTVDBFBFVQUYQLEOBEONIPLCEVRZEPUWR9HVZYTEZBPLEBFZFVILCYVNWZCPLFBEDGEMEYVBDOQWAINYW</b>
                 </p>
             </Message>
         </div >

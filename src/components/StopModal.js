@@ -21,7 +21,7 @@ class StopModal extends Component {
               <Modal.Content>
                 <Modal.Description>
                   <Header>IOTA Online Seed Generators are unsecure, please don't use this seed under any circumstance.</Header>
-                  <p>This are some secure alternatives to generate your seed offline:</p>
+                  <p>These are some secure alternatives to generate your seed offline:</p>
                   <Generators />
                   <DonateMessage />
                 </Modal.Description>
